@@ -44,12 +44,12 @@ public class EntryPoint {
     }
 
     public static void spoofDevice() {
-        final String PRODUCT = "WW_Phone";
-        final String DEVICE = "ASUS_X00HD_4";
-        final String MANUFACTURER = "Asus";
-        final String BRAND = "Asus";
-        final String MODEL = "ASUS_X00HD";
-        final String FINGERPRINT = "asus/WW_Phone/ASUS_X00HD_4:7.1.1/NMF26F/14.2016.1801.372-20180119:user/release-keys";
+        final String PRODUCT = "Nord";
+        final String DEVICE = "AC2003";
+        final String MANUFACTURER = "OnePlus";
+        final String BRAND = "OnePlus";
+        final String MODEL = "AC2003";
+        final String FINGERPRINT = "OnePlus/Nord/Nord:13/RP1A.201005.001/2110142331:user/release-keys";
 
         setProp("PRODUCT", PRODUCT);
         setProp("DEVICE", DEVICE);
